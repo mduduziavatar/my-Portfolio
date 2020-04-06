@@ -1,99 +1,377 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./simple-grid.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Siphiwe Malinga - Full Stack Web Developer</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="js/vendor/jquery.min.js"></script>
+    </script>
+    <script src="js/vendor/jquery.hashchange.min.js"></script>
+    <script src="js/vendor/jquery.easytabs.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+      <![endif]-->
 </head>
 
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="heading">
-                <div class="col-6">
-                    <img src="cityhall.jpg">
+<body class="bg-fixed bg-1">
+    <div class="main-container">
+        <div class="main wrapper clearfix">
+            <!-- Header Start -->
+            <header id="header">
+                <div id="logo">
+                    <h2>
+                        Siphiwe Malinga
+                    </h2>
+                    <h4>
+                        Full Stack Web Developer
+                    </h4>
                 </div>
-                <div class="col-6">
-                    <h1>Siphiwe </h1>
-                    <h1> Malinga</h1>
+            </header>
+            <!-- Header End -->
+            <!-- Main Tab Container -->
+            <div id="tab-container" class="tab-container">
+                <!-- Tab List -->
+                <ul class="tabs">
+                    <li class='tab' id="tab-about">
+                        <a href="#about"><i class="icon-user"></i><span> About Me</span></a>
+                    </li>
+                    <li class='tab'>
+                        <a href="#resume"><i class="icon-file-text"></i><span> Resume</span></a>
+                    </li>
+                    <li class='tab'>
+                        <a href="#portfolio"><i class="icon-heart"></i><span> Portfolio</span></a>
+                    </li>
+                    <li class='tab'>
+                        <a href="#contact"><i class="icon-envelope"></i><span> Contact</span></a>
+                    </li>
+                </ul>
+                <!-- End Tab List -->
+                <div id="tab-data-wrap">
+                    <!-- About Tab Data -->
+                    <div id="about">
+                        <section class="clearfix">
+                            <div class="g2">
+                                <div class="photo">
+                                    <img src="images/passport.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h2>
+                                        Siphiwe Malinga
+                                    </h2>
+                                    <h4>
+                                        Full Stack Web Developer
+                                    </h4>
+                                    <p>
+                                        Apprentice at ProjectCodeX
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="g1">
+                                <div class="main-links sidebar">
+                                    <ul>
+                                        <li>
+                                            <a href="resume">View My Resume</a>
+                                        </li>
+                                        <li>
+                                            <a href="#portfolio">My Portfolio</a>
+                                        </li>
+                                        <li>
+                                            <a href="#contact">Contact Me</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="break"></div>
+                            <div class="contact-info">
+                                <div class="g1">
+                                    <div class="item-box clearfix">
+                                        <div class="item-data">
+                                            <h3>
+                                                <a href="mailto:mduduziavatar@gmail.com">mduduziavatar@gmail.com</a>
+                                            </h3>
+                                            <!-- <p>Email address</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="g1">
+                                    <div class="item-box clearfix">
+                                        <div class="item-data">
+                                            <h3>
+                                                <a href="https://www.linkedin.com/in/siphiwe-mduduzi-malinga-90941b156/"></a>
+                                            </h3>
+                                            <a href="#" class="fa fa-linkedin"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="g1">
+                                    <div class="item-box clearfix">
+                                        <div class="item-data">
+                                            <h3>
+                                                <a href="https://twitter.com/Siphiwe65193093"></a>
+                                            </h3>
+                                            <a href="#" class="fa fa-twitter"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="g1">
+                                    <div class="item-box clearfix">
+                                        <div class="item-data">
+                                            <h3>
+                                                <a href="https://www.facebook.com/siphiwemdu"></a>
+                                            </h3>
+                                            <a href="#" class="fa fa-facebook"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="g1">
+                                    <div class="item-box clearfix">
+                                        <div class="item-data">
+                                            <h3>
+                                                <a href="https://www.instagram.com/siphiwemduduzimalinga/"></a>
+                                            </h3>
+                                            <a href="#" class="fa fa-instagram"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- content -->
+                    </div>
+                    <!-- End About Tab Data -->
+                    <!-- Resume Tab Data -->
+                    <div id="resume">
+                        <section class="clearfix">
+                            <div class="g2">
+                                <h3>
+                                    Work Experience
+                                </h3>
+                                <ul class="no-list work">
+                                    <li>
+                                        <h5>
+                                            Multichoice
+                                        </h5><span class="label label-info">2015-2018</span>
+                                        <p>
+                                            Inbound call centre
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5>
+                                            PerDm
+                                        </h5><span class="label label-info">2012-2015</span>
+                                        <p>
+                                            Direct Marketing
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5>
+                                            thatazonke
+                                        </h5><span class="label label-info">2018-2019</span>
+                                        <p>
+                                            Founder E-commerce store </p>
+                                    </li>
+                                    <h3>
+                                        Education
+                                    </h3>
+
+                                    <h3>
+                                        Hobby Projects
+                                    </h3>
+
+                            </div>
+                            <div class="g1">
+                                <div class="sidebar">
+                                    <h3>
+                                        Skills
+                                    </h3>
+                                    Full Stack Development </h5>
+                                    <div class="meter emerald">
+                                        <span style="width: 66%"><span>TDD</span></span>
+                                    </div>
+                                    <div class="meter carrot">
+                                        <span style="width: 55%"><span>CSS frameworks</span></span>
+                                    </div>
+                                    <div class="meter wisteria">
+                                        <span style="width: 60%"><span>Command line</span></span>
+                                    </div>
+                                    <div class="break"></div>
+                                    <h5>
+                                        SoCs
+                                    </h5>
+                                    <div class="meter emerald">
+                                        <span style="width: 85%"><span>Raspberry Pi</span></span>
+                                    </div>
+
+                                    <h5>
+                                        Languages Known
+                                    </h5>
+                                    <div class="meter emerald">
+                                        <span style="width: 53.3%"><span>Java script</span></span>
+                                    </div>
+                                    <div class="meter carrot">
+                                        <span style="width: 80%"><span>Python</span></span>
+                                    </div>
+                                    <div class="meter wisteria">
+                                        <span style="width: 95%"><span>CSS</span></span>
+                                    </div>
+                                    <div class="meter sunflower">
+                                        <span style="width: 75%"><span>HTml:5</span></span>
+                                    </div>
+                                    <!-- <div class="meter asbestos">
+                                                <span style="width: 82%"><span>Powershell</span></span>
+                                            </div> -->
+                                    <h5>
+                                        Databases
+                                    </h5>
+                                    <div class="meter emerald">
+                                        <span style="width: 90%"><span>NodeJS</span></span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- End Resume Tab Data -->
+                    <!-- Portfolio Tab Data -->
+                    <div id="portfolio">
+                        <section class="clearfix">
+                            <div class="g1">
+                                <div class="image">
+                                    <img src="images/WebpNN.jpg" alt="">
+                                    <!-- <div class="image-overlay">
+                                        <div class="image-link">
+                                            <a href="http://lorempixel.com/606/606/sports/1" class="btn">Full View</a>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="g1">
+                                <div class="image">
+                                    <img src="images/Webpng.jpg" alt="">
+                                    <!-- <div class="image-overlay">
+                                        <div class="image-link">
+                                            <a href="http://lorempixel.com/606/606/sports/2" class="btn">Full View</a>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="g1">
+                                <div class="image">
+                                    <img src="images/Webpgp.jpg" alt="">
+                                    <!-- <div class="image-overlay">
+                                        <div class="image-link">
+                                            <a href="http://lorempixel.com/606/606/sports/3" class="btn">Full View</a>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="break"></div>
+                            <div class="g1">
+                                <div class="image">
+                                    <img src="images/Webpg.jpg" alt="">
+                                    <!-- <div class="image-overlay">
+                                        <div class="image-link">
+                                            <a href="http://lorempixel.com/606/606/sports/4" class="btn">Full View</a>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="g1">
+                                <div class="image">
+                                    <img src="images/Webp.jpg" alt="">
+                                    <!-- <div class="image-overlay">
+                                        <div class="image-link">
+                                            <a href="http://lorempixel.com/606/606/sports/5" class="btn">Full View</a>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="g1">
+                                <div class="image">
+                                    <img src="images/cityhall.jpg" alt="">
+                                    <!-- <div class="image-overlay">
+                                        <div class="image-link">
+                                            <a href="http://lorempixel.com/606/606/business/2" class="btn">Full View</a>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+
+                        </section>
+                    </div>
+                    <!-- End Portfolio Data -->
+                    <!-- Contact Tab Data -->
+                    <div id="contact">
+                        <section class="clearfix">
+                            <div class="g1">
+                                <div class="sny-icon-box">
+                                    <div class="sny-icon">
+                                        <i class="icon-globe"></i>
+                                    </div>
+                                    <div class="sny-icon-content">
+                                        <h4>My Address</h4>
+                                        <p>96 Kipling ave Mandaley Mitchells Plain 7789</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="g1">
+                                <div class="sny-icon-box">
+                                    <div class="sny-icon">
+                                        <i class="icon-phone"></i>
+                                    </div>
+                                    <div class="sny-icon-content">
+                                        <h4>Mobile Number</h4>
+                                        <p>0616276795</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="g1">
+                                <div class="sny-icon-box">
+                                    <div class="sny-icon">
+                                        <i class="icon-user"></i>
+                                    </div>
+                                    <div class="sny-icon-content">
+                                        <h4>About Me</h4>
+                                        <p>I worked in Direct sales, then telesales, then I did online e-commerce sales. Through all of that my passion was always on computers on how they work to give us this technology that we see everyday. Tried teaching
+                                            myself how to programme but thanks to CodeX I now can</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="break"></div>
+
+                        </section>
+                    </div>
+                    <!-- End Contact Data -->
                 </div>
             </div>
+            <!-- End Tab Container -->
+            <footer>
+                <p>
+                    <a href="http://chaitanya-t.github.io/" target="_blank">Update this with the blog</a>
+                </p>
+            </footer>
         </div>
+        <!-- #main -->
     </div>
-    <div class="row">
-        <div class="heading">
-            <div class="col-12">
-                <h2>Front End Projects</h2>
-                <img class="tokyo" src="js.jpg">
-                <h3><u>Tokyo Japan</u>
-                    <p padding=1em>Tokyo Japan is a city of flashing neon lights, super-advanced gadgetry, which is one of the most populated cities in the world but filled with great minds in technology. One of my best dreams is to find myself on top of a mountain
-                        with nothing other than peace and tranquillity surrounding me. It may be far to travel to but I am pretty sure it’s got a whole lot to offer. Maybe if I still have the stomach for it, ill even try their fast foods that we most
-                        South Africans are so fearful of.
-                    </p>
-                </h3>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <h2>Back End Projects</h2>
-        </div>
-        <div class="col-4">
-            <div>
-                <h2>Castle of good hope</h2>
-                <img class="img" src="cityhall.jpg">
-                <li>
-                    Built between 1666 and 1679 by the Dutch East India Company.
-                </li>
-                <li>
-                    It's also the oldest existing colonial building in South Africa.
-                </li>
-                <li>
-                    Its predecessor was Fort de Goede Hoop which was built from clay.
-                </li>
-            </div>
+    <!-- #main-container -->
 
-        </div>
-        <div class="col-4">
-            <div>
-                <h2>Long Street</h2>
-                <img class="img2" src="Webp.jpg">
-                <li>
-                    Filled a great number of youth hostels for all international guests
-                </li>
-                <li>
-                    The vibe. Above all, Whether exploring by day or night its always fascinating.
-                </li>
-                <li>
-                    The nightlife. best bar hopping and nice people who keep you entertained.
-                </li>
-            </div>
-
-        </div>
-        <div class="col-4">
-            <div>
-                <h2>City Hall</h2>
-                <img class="img3" src="Webpng.jpg">
-                <li>
-                    The first place from where Nelson Mandela spoke after release from prison in 1990.
-                </li>
-                <li>
-                    The Hall itself is made up of components from all over the world.
-                </li>
-                <li>
-                    Built in 1905, makes it one the oldest buildings in South Africa.
-                </li>
-            </div>
-        </div>
-    </div>
-    <div class="col-12">
-        <div class="footer">
-            <h5>Designed by Siphiwe</h5>
-        </div>
-    </div>
-    </div>
 
 
 </body>
