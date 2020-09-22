@@ -566,7 +566,7 @@ body {
     display: block;
     position: relative;
     margin-left: 1%;
-    margin-right: 1%
+    margin-right: 1%;
 }
 
 
@@ -693,6 +693,18 @@ body {
     margin-right: 10px;
 }
 
+.tab-port {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    background: #fff;
+    border: solid 1px #f1f1f1;
+    border-bottom: 0px;
+    -moz-border-: 4px 4px 0 0;
+    -webkit-border: 4px 4px 0 0;
+    margin-right: 10px;
+}
+
 .tab a {
     font-weight: bold;
     text-transform: uppercase;
@@ -701,6 +713,17 @@ body {
     padding: 2px 10px;
     outline: none;
     color: #888;
+    text-decoration: none;
+}
+
+.tab-port a {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+    padding: 2px 10px;
+    outline: none;
+    /* color: #888; */
     text-decoration: none;
 }
 
