@@ -1,5 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css2?family=Fruktur&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 *,
 *:before,
 *:after {
@@ -8,6 +10,10 @@
     box-sizing: border-box;
 }
 
+/* Fonts */
+#header{
+    font-family: 'Fruktur', cursive;
+}
 
 /* HTML5 DECLARATIONS */
 
@@ -654,6 +660,7 @@ body {
 
 #header h4 {
     margin-bottom: 0px;
+    
 }
 
 #header .visible {
@@ -779,11 +786,19 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: .3em;
+    font-family: 'Fruktur', cursive;
+}
+
+#header h3 {
+    color: #999;
+    font-family: 'Fruktur', cursive;
+
 }
 
 .info h4,
 #header h4 {
     color: #999;
+    
 }
 
 
@@ -875,9 +890,21 @@ body {
     clear: both;
 }
 
+#about{
+    font-style: fa fa-odnoklassniki-square;
+}
+
+#resume h3, h4, h5{
+    font-family: 'Fruktur', cursive;
+
+}
 
 /* Portfolio */
 
+#portfolio h3{
+    font-family: 'Fruktur', cursive;
+
+}
 .image {
     position: relative;
 }
